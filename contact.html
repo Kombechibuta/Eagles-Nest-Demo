@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+            <nav>
+            <div class="logo"><a href="index.html"><img src="images/Eagles_Nest-Logo.png"></a></div>
+
+            <!-- code used to create hamburger menu -->
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="link active">Home</a></li>
+                    <li><a href="about.html" class="link">About Us</a></li>
+
+                    <div class="dropdown" data-dropdown>
+                        <button class="link" data-dropdown-button>School Life</button>
+                        <div class="dropdown-menu">
+                            <a href="schoollife.html">Grades</a>
+                            <a href="schoollife.html">Clubs</a>
+                            <a href="schoollife.html">Events</a>
+                        </div>
+                    </div>
+
+                    <li><a href="virtualtour_page.html" class="link">Virtual Tour</a></li>
+
+
+                    <li><a href="contact.html" class="link">Contact</a></li>
+
+                    <!-- <li><a href="admin.html" class="link">Admin</a></li> -->
+                </ul>
+            </div>
+            
+            </nav>
+    </header>
+
+
+    <div class="top">
+        <h1>GET IN TOUCH WITH THE SCHOOL</h1>
+    </div>
+
+<!-- code used to create contact us from info and map -->
+<div class="contact_us">
+    <div class="box">
+
+        <!-- form -->
+        <div class="contact form">
+            <h3>Send a Message</h3>
+            <!-- to send actually send the message to an email, this email can be replaced with an email of choice -->
+            <form >
+                <div class="formBox">
+
+                    <div class="row50">
+                        <div class="inputBox">
+                            <span>First name</span>
+                            <input type="text" placeholder="John..." required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Last name</span>
+                            <input type="text" placeholder="Doe..." required>
+                        </div>
+                    </div>
+
+                    <div class="row50">
+                        <div class="inputBox">
+                            <span>Email</span>
+                            <input type="text" placeholder="johndoe@gmail.com..." required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Mobile</span>
+                            <input type="text" placeholder="+260 961717171" required>
+                        </div>
+                    </div>
+
+                    <div class="row100">
+                        <div class="inputBox">
+                            <span>Message</span>
+                            <textarea placeholder="Write your message here..." required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row100">
+                        <div class="inputBox">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+
+
+                </div>
+            </form>
+        </div>
+
+        <div class="info_map">
+            <!-- Info Box -->
+            <div class="contact info">
+                <h3>Conact info</h3>
+                <div class="infoBox">
+                    <div>
+                        <span><img src="icons/location-dot-solid.svg" width="20px"></span>
+                        <p>Eagles Nest School, Lusaka, <br> ZAMBIA</p>
+                    </div>
+    
+                    <div>
+                        <span><img src="icons/envelope-solid.svg" width="20px"></span>
+                        <a href="mailto:loremipsum@gmail.com">eaglesnestschool@gmail.com</a>
+                    </div>
+    
+                    <div>
+                        <span><img src="icons/mobile-screen-button-solid.svg" width="20px"></span>
+                        <a href="tel:+260 961717171">+260 961717171</a>
+                    </div>
+                    
+    
+                </div>
+            </div>
+            
+    
+            <!-- Map -->
+            <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.3942740758134!2d28.312054760562617!3d-15.44111222478111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19408df8ee586b0f%3A0x7ecfcfb248b0300b!2sEagles%20Nest%20School!5e0!3m2!1sen!2szm!4v1680016939645!5m2!1sen!2szm"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+    </div>
+</div>
+
+
+    
+         <!-- Code used for footer -->
+         <footer class="footer">
+            <div class="social">
+                <a href="#"><img src="icons/facebook-brands.svg"></a>
+                <a href="#"><img src="icons/instagram-brands.svg"></a>
+                <a href="#"><img src="icons/twitter-brands.svg"></a>
+                <a href="#"><img src="icons/tiktok-brands.svg"></a>
+            </div>
+
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p>copyright 2023</p>
+
+            <div class="admin">
+                <!-- <a href="adminlogin.php">Administration</a> -->
+            </div>
+        </footer>
+</body>
+</html>
